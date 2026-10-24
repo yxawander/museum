@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b2b3a"/>
+      <stop offset=".5" stop-color="#0d4a4b"/>
+      <stop offset="1" stop-color="#061c1c"/>
+    </linearGradient>
+    <radialGradient id="sun" cx=".68" cy=".26" r=".2">
+      <stop offset="0" stop-color="#f5d58e" stop-opacity=".9"/>
+      <stop offset=".5" stop-color="#d8a955" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#0b2b3a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7fb6ac" stop-opacity=".1"/>
+      <stop offset=".5" stop-color="#c7a15a" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#7fb6ac" stop-opacity=".1"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect width="800" height="600" fill="url(#sun)"/>
+  <g fill="none" stroke="#a9cfc5" stroke-width="1.2" opacity=".3">
+    <path d="M80 200c80-60 160 60 240 0s160 60 240 0 120 30 160 0"/>
+    <path d="M40 240c80-60 160 60 240 0s160 60 240 0 160 60 240 0"/>
+    <path d="M0 280c80-60 160 60 240 0s160 60 240 0 160 60 240 0 80 60 80 60"/>
+  </g>
+  <g fill="none" stroke="url(#wave)" stroke-width="2">
+    <path d="M0 380c60-40 120 40 180 0s120 40 180 0 120 40 180 0 120 40 180 0 80 30 80 30"/>
+    <path d="M0 430c60-40 120 40 180 0s120 40 180 0 120 40 180 0 120 40 180 0 80 30 80 30"/>
+  </g>
+  <g fill="#0a2320" opacity=".85">
+    <path d="M0 470l90-120 60 80 70-120 90 140 80-90 70 80 90-130 80 110 70-60v100H0z"/>
+  </g>
+  <g fill="#c7a15a" opacity=".7">
+    <circle cx="560" cy="150" r="36"/>
+    <circle cx="560" cy="150" r="48" fill="none" stroke="#c7a15a" stroke-width=".8" opacity=".4"/>
+  </g>
+  <g stroke="#e9d6a8" stroke-width="1" opacity=".2" fill="none">
+    <path d="M100 100h600M100 500h600"/>
+    <path d="M100 100v400M700 100v400"/>
+  </g>
+  <g fill="#e9d6a8" opacity=".55">
+    <circle cx="180" cy="120" r="1.2"/><circle cx="300" cy="80" r="1.4"/>
+    <circle cx="680" cy="300" r="1.3"/><circle cx="120" cy="340" r="1.4"/>
+  </g>
+  <path d="M0 534c180-24 320 10 480 12s230-20 320-4v58H0z" fill="#03100f" opacity=".6"/>
+  <text x="48" y="558" fill="#c7a15a" font-family="Georgia, serif" font-size="13" letter-spacing="6" opacity=".8">HUBEI MUSEUM · JINGCHU CIVILIZATION</text>
+</svg>

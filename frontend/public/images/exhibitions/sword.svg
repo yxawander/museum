@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a2b33"/>
+      <stop offset=".55" stop-color="#071d26"/>
+      <stop offset="1" stop-color="#041116"/>
+    </linearGradient>
+    <linearGradient id="blade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f5f1dc"/>
+      <stop offset=".4" stop-color="#c9d6cf"/>
+      <stop offset=".55" stop-color="#7f9994"/>
+      <stop offset=".7" stop-color="#e7e2c9"/>
+      <stop offset="1" stop-color="#94a8a2"/>
+    </linearGradient>
+    <linearGradient id="hilt" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f0d49a"/>
+      <stop offset=".5" stop-color="#b98d4d"/>
+      <stop offset="1" stop-color="#6b4a24"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#bcd8d0" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#071d26" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="diamond" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <path d="M0 0h24v24H0z" fill="none" stroke="#233c3a" stroke-width="2" opacity=".55"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect width="800" height="600" fill="url(#glow)"/>
+  <g opacity=".3" stroke="#8fb5ac" fill="none">
+    <circle cx="620" cy="150" r="120" stroke-width=".7"/>
+    <circle cx="620" cy="150" r="90" stroke-width=".5"/>
+    <path d="M470 150h300M620 0v300" stroke-width=".4"/>
+  </g>
+  <g transform="translate(120 330) rotate(-32)">
+    <rect x="0" y="-15" width="480" height="30" rx="3" fill="url(#blade)"/>
+    <rect x="0" y="-15" width="480" height="30" fill="url(#diamond)" opacity=".3"/>
+    <path d="M480-15l46 15-46 15z" fill="#e9e6d2"/>
+    <path d="M0-16h-46v32H0z" fill="url(#hilt)"/>
+    <rect x="-86" y="-22" width="40" height="44" rx="5" fill="url(#hilt)"/>
+    <rect x="-96" y="-10" width="12" height="20" rx="3" fill="#7a5529"/>
+    <circle cx="-28" cy="0" r="3" fill="#7fd0c0" opacity=".7"/>
+    <path d="M30-8h180M30 0h250M30 8h160" stroke="#6d8983" stroke-width="1" opacity=".5"/>
+  </g>
+  <g transform="translate(160 470) rotate(-32)" opacity=".25">
+    <rect x="0" y="-15" width="480" height="30" fill="#8fb5ac"/>
+  </g>
+  <g fill="#d9c99e" opacity=".55">
+    <circle cx="150" cy="120" r="1.5"/><circle cx="270" cy="90" r="1.2"/>
+    <circle cx="680" cy="390" r="1.6"/><circle cx="600" cy="470" r="1.2"/>
+  </g>
+  <path d="M0 536c200-30 360 18 540 10s200-26 260-10v64H0z" fill="#020d12" opacity=".6"/>
+  <text x="48" y="558" fill="#c7a15a" font-family="Georgia, serif" font-size="13" letter-spacing="6" opacity=".8">HUBEI MUSEUM · SWORD OF GOUJIAN</text>
+</svg>

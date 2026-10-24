@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="b" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b3a36"/>
+      <stop offset=".6" stop-color="#082725"/>
+      <stop offset="1" stop-color="#041615"/>
+    </linearGradient>
+    <linearGradient id="m" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f3d89c"/>
+      <stop offset=".35" stop-color="#c59a52"/>
+      <stop offset=".7" stop-color="#8a5f2d"/>
+      <stop offset="1" stop-color="#5b3f20"/>
+    </linearGradient>
+    <radialGradient id="g" cx=".62" cy=".35" r=".6">
+      <stop offset="0" stop-color="#d9b36b" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#0a2f2c" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="p" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0v40" fill="none" stroke="#e9d6a8" stroke-width=".5" opacity=".06"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="url(#b)"/>
+  <rect width="800" height="600" fill="url(#p)"/>
+  <rect width="800" height="600" fill="url(#g)"/>
+  <g opacity=".5" stroke="#c7a15a" fill="none">
+    <circle cx="655" cy="120" r="90" stroke-width=".7"/>
+    <circle cx="655" cy="120" r="65" stroke-width=".5"/>
+    <path d="M540 120h230M655 5v230" stroke-width=".4"/>
+  </g>
+  <g transform="translate(120 90)">
+    <path d="M20 30h500v22H20zM60 52v38M480 52v38" fill="none" stroke="#8a6a3c" stroke-width="8"/>
+    <path d="M20 30h500" stroke="#c7a15a" stroke-width="2" opacity=".6"/>
+    <g>
+      <g transform="translate(55 88)">
+        <path d="M42 0v36" stroke="#c7a15a" stroke-width="2"/>
+        <path d="M42 36c-26 0-38 24-38 54v28l-14 20v12h104V138l-14-20v-28c0-30-12-54-38-54z" fill="url(#m)" opacity=".92"/>
+        <circle cx="42" cy="78" r="4" fill="#2b1a0b" opacity=".55"/>
+        <path d="M14 128h56" stroke="#5b3f20" stroke-width="1" opacity=".5"/>
+      </g>
+      <g transform="translate(150 66) scale(.92)">
+        <path d="M42 0v42" stroke="#c7a15a" stroke-width="2"/>
+        <path d="M42 42c-26 0-38 25-38 56v30l-14 20v12h104V148l-14-20v-30c0-31-12-56-38-56z" fill="url(#m)" opacity=".88"/>
+        <circle cx="42" cy="86" r="4" fill="#2b1a0b" opacity=".55"/>
+      </g>
+      <g transform="translate(245 92) scale(.86)">
+        <path d="M42 0v36" stroke="#c7a15a" stroke-width="2"/>
+        <path d="M42 36c-26 0-38 24-38 54v28l-14 20v12h104V138l-14-20v-28c0-30-12-54-38-54z" fill="url(#m)" opacity=".9"/>
+        <circle cx="42" cy="78" r="4" fill="#2b1a0b" opacity=".55"/>
+      </g>
+      <g transform="translate(335 70) scale(.98)">
+        <path d="M42 0v40" stroke="#c7a15a" stroke-width="2"/>
+        <path d="M42 40c-26 0-38 25-38 56v30l-14 20v12h104V146l-14-20v-30c0-31-12-56-38-56z" fill="url(#m)" opacity=".9"/>
+        <circle cx="42" cy="84" r="4" fill="#2b1a0b" opacity=".55"/>
+      </g>
+      <g transform="translate(425 96) scale(.8)">
+        <path d="M42 0v34" stroke="#c7a15a" stroke-width="2"/>
+        <path d="M42 34c-26 0-38 24-38 54v28l-14 20v12h104V136l-14-20v-28c0-30-12-54-38-54z" fill="url(#m)" opacity=".85"/>
+        <circle cx="42" cy="76" r="4" fill="#2b1a0b" opacity=".55"/>
+      </g>
+    </g>
+    <g fill="none" stroke="#8a6a3c" stroke-width="6" opacity=".8">
+      <path d="M70 280h420M90 280l-20 34h440l-20-34"/>
+      <path d="M120 314v52M430 314v52"/>
+    </g>
+  </g>
+  <g fill="#e9d6a8" opacity=".45">
+    <circle cx="250" cy="190" r="1.5"/><circle cx="520" cy="140" r="1.2"/>
+    <circle cx="640" cy="360" r="1.6"/><circle cx="190" cy="480" r="1.2"/>
+  </g>
+  <path d="M0 530c170-30 300-10 450 16s260 20 350-4v58H0z" fill="#03110f" opacity=".55"/>
+  <text x="48" y="558" fill="#c7a15a" font-family="Georgia, serif" font-size="13" letter-spacing="6" opacity=".8">HUBEI MUSEUM · CHIME BELLS</text>
+</svg>

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b3532"/>
+      <stop offset=".55" stop-color="#155c55"/>
+      <stop offset="1" stop-color="#0a2624"/>
+    </linearGradient>
+    <linearGradient id="stone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8dcc0"/>
+      <stop offset="1" stop-color="#b9a988"/>
+    </linearGradient>
+    <linearGradient id="roof" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#164e48"/>
+      <stop offset="1" stop-color="#082e2b"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".28" r=".5">
+      <stop offset="0" stop-color="#f0cf83" stop-opacity=".4"/>
+      <stop offset="1" stop-color="#0b3532" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#sky)"/>
+  <rect width="1200" height="800" fill="url(#glow)"/>
+  <circle cx="860" cy="210" r="95" fill="#f0cf83" opacity=".65"/>
+  <circle cx="860" cy="210" r="130" fill="none" stroke="#f0cf83" stroke-width="1" opacity=".25"/>
+  <g opacity=".25" stroke="#cfe2d8" fill="none">
+    <path d="M0 480c150-50 300 10 450-20s300-60 450-20 220 50 300 20"/>
+    <path d="M0 520c150-50 300 10 450-20s300-60 450-20 220 50 300 20"/>
+  </g>
+  <g transform="translate(240 300)">
+    <path d="M0 260h720v20H0z" fill="#08201e"/>
+    <path d="M40 260V150h640v110" fill="url(#stone)" opacity=".9"/>
+    <g fill="#173f3b">
+      <rect x="80" y="180" width="60" height="80"/>
+      <rect x="180" y="180" width="60" height="80"/>
+      <rect x="280" y="180" width="60" height="80"/>
+      <rect x="380" y="180" width="60" height="80"/>
+      <rect x="480" y="180" width="60" height="80"/>
+      <rect x="580" y="180" width="60" height="80"/>
+    </g>
+    <path d="M0 150l90-70h540l90 70z" fill="url(#roof)"/>
+    <path d="M40 150h640" stroke="#c7a15a" stroke-width="3" opacity=".6"/>
+    <path d="M130 80l60-60h340l60 60z" fill="url(#roof)"/>
+    <path d="M160 80h480" stroke="#c7a15a" stroke-width="2" opacity=".5"/>
+    <path d="M280 20h160v-20H280z" fill="#0b2b28"/>
+    <path d="M330 0h60v-26h-60z" fill="#0b2b28"/>
+    <path d="M360-26v-40" stroke="#c7a15a" stroke-width="3"/>
+    <g fill="none" stroke="#c7a15a" stroke-width="1" opacity=".4">
+      <path d="M40 150l90-70M680 150l-90-70M130 80l60-60M610 80l-60-60"/>
+    </g>
+    <g fill="#e8dcc0">
+      <rect x="330" y="220" width="60" height="40" opacity=".85"/>
+      <rect x="330" y="190" width="60" height="20" opacity=".7"/>
+    </g>
+    <g fill="#f0cf83" opacity=".55">
+      <rect x="96" y="200" width="28" height="40"/>
+      <rect x="196" y="200" width="28" height="40"/>
+      <rect x="396" y="200" width="28" height="40"/>
+      <rect x="496" y="200" width="28" height="40"/>
+    </g>
+  </g>
+  <g fill="#08201e" opacity=".9">
+    <path d="M0 650c200-30 380 10 560 0s340-40 640-10v160H0z"/>
+  </g>
+  <g fill="#e9d6a8" opacity=".55">
+    <circle cx="160" cy="180" r="1.6"/><circle cx="320" cy="120" r="1.2"/>
+    <circle cx="1040" cy="300" r="1.4"/><circle cx="980" cy="520" r="1.2"/>
+  </g>
+  <g fill="none" stroke="#c7a15a" opacity=".35">
+    <path d="M60 740h1080" stroke-width="1"/>
+    <path d="M100 760h1000" stroke-width=".7"/>
+  </g>
+  <text x="60" y="700" fill="#c7a15a" font-family="Georgia, serif" font-size="15" letter-spacing="8" opacity=".8">HUBEI PROVINCIAL MUSEUM</text>
+</svg>
