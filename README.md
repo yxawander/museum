@@ -17,7 +17,7 @@ mysql -uroot -p < database/schema.sql
 mysql -uroot -p < database/data.sql
 ```
 
-`schema.sql` 会创建数据库 `museum_booking` 和应用账号 `museum / museum123`。完整系统说明见 [docs/系统说明.md](docs/系统说明.md)。
+`schema.sql` 会创建数据库 `museum_booking` 和应用账号 `museum / museum123`。
 
 ### 2. 后端
 
@@ -40,11 +40,11 @@ npm run dev
 
 ### 4. 演示账号
 
-| 角色 | 账号 | 密码 | 入口 |
-| --- | --- | --- | --- |
-| 观众 | `visitor` | `Visitor@123` | 前台 |
-| 管理员 | `admin` | `Admin@123` | 管理后台 |
-| 检票员 | `staff` | `Staff@123` | 现场核销 |
+| 角色   | 账号        | 密码            | 入口     |
+| ------ | ----------- | --------------- | -------- |
+| 观众   | `visitor` | `Visitor@123` | 前台     |
+| 管理员 | `admin`   | `Admin@123`   | 管理后台 |
+| 检票员 | `staff`   | `Staff@123`   | 现场核销 |
 
 > 演示账号仅用于课程验收；部署前请修改密码与 `JWT_SECRET`。
 
@@ -71,12 +71,12 @@ npm run dev
 
 ## 技术栈
 
-| 层 | 技术 |
-| --- | --- |
-| 前端 | Vue 3.5、TypeScript 6、Vite 8、Element Plus 2.14、Pinia 4、Vue Router 5、Axios、ECharts 6、qrcode.vue |
-| 后端 | Spring Boot 3.5、MyBatis-Plus 3.5、JWT (jjwt)、BCrypt、Jakarta Validation、Lombok |
-| 数据库 | MySQL 8/9、utf8mb4 |
-| 测试 | JUnit 5、Mockito、Node fetch、Playwright Core |
+| 层     | 技术                                                                                                  |
+| ------ | ----------------------------------------------------------------------------------------------------- |
+| 前端   | Vue 3.5、TypeScript 6、Vite 8、Element Plus 2.14、Pinia 4、Vue Router 5、Axios、ECharts 6、qrcode.vue |
+| 后端   | Spring Boot 3.5、MyBatis-Plus 3.5、JWT (jjwt)、BCrypt、Jakarta Validation、Lombok                     |
+| 数据库 | MySQL 8/9、utf8mb4                                                                                    |
+| 测试   | JUnit 5、Mockito、Node fetch、Playwright Core                                                         |
 
 ## 目录结构
 
@@ -126,10 +126,10 @@ npm run build
 
 ## 截图
 
-| 首页 | 管理看板 |
-| --- | --- |
+| 首页                                  | 管理看板                                         |
+| ------------------------------------- | ------------------------------------------------ |
 | ![首页](docs/screenshots/01-home.png) | ![看板](docs/screenshots/11-admin-dashboard.png) |
 
-| 预约 | 凭证 |
-| --- | --- |
+| 预约                                     | 凭证                                                |
+| ---------------------------------------- | --------------------------------------------------- |
 | ![预约](docs/screenshots/06-booking.png) | ![凭证](docs/screenshots/09-reservation-detail.png) |
